@@ -14,7 +14,7 @@
 
 **Без requirements.txt зависимости следующие:**
 
-    python -m pip install fastapi uvicorn httpx Pillow transformers torch torchvision torchaudio
+    python -m pip install fastapi uvicorn httpx Pillow transformers torch torchvision torchaudio pytest
 
 **Запуск веб-сервера для разработки:**
 

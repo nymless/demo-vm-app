@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.image_to_text import load_model
+from src.model.image_to_text import load_model
 
 
 class Item(BaseModel):

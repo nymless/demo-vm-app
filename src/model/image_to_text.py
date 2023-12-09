@@ -5,7 +5,8 @@ from io import BytesIO
 
 
 def load_model():
-    """The function loads a model describing the passed image, and returns the function image_to_text(img_url), to pass its URL to the image."""
+    """The function loads a model describing the passed image,
+    and returns the function image_to_text(img_url), to pass its URL to the image."""
 
     processor = BlipProcessor.from_pretrained(
         "Salesforce/blip-image-captioning-large")
